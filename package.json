@@ -1,0 +1,29 @@
+{
+  "name": "bunnyx-test",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bunnyx dev",
+    "build": "bunnyx build",
+    "start": "bunnyx start"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "latest",
+    "@elysiajs/eden": "latest",
+    "@elysiajs/openapi": "^1.4.14",
+    "@giscus/react": "^3.1.0",
+    "@peaseernest/bertui-components": "^1.0.2",
+    "bertui": "^1.2.8",
+    "bertui-animate": "^1.0.0",
+    "bertui-code": "^1.0.3",
+    "bertui-continue": "^0.1.0",
+    "bertui-icons": "^1.0.3",
+    "bunnyx": "^0.0.5",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "bun-types": "latest"
+  }
+}

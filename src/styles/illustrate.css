@@ -1,0 +1,155 @@
+
+/* ═══════════════════════════════════════════
+   BunnyX — illustrate.css
+   Imports and extends home.css design tokens
+   ═══════════════════════════════════════════ */
+
+
+/* ── Page-level layout (no top nav padding needed here) ── */
+.bx-main--page {
+  padding-top: 0;
+}
+
+/* ── Hero (compact, no full-height) ── */
+.ill-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: calc(var(--nav-h) + 3.5rem) 2rem 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ill-hero .bx-orb--pink  { top: -160px; left: -100px; width: 440px; height: 440px; opacity: 0.45; }
+.ill-hero .bx-orb--purple { top: -80px; right: -80px; width: 360px; height: 360px; opacity: 0.35; }
+
+.ill-hero__inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.75rem;
+  max-width: 640px;
+  width: 100%;
+  animation: fadeUp 0.7s var(--ease-expo) both;
+}
+
+.ill-hero__inner .bx-hero__title {
+  font-size: clamp(2.25rem, 6vw, 4.5rem);
+}
+
+/* ── Image card — universal ── */
+.ill-img-card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--c-bg-2);
+  border: 1px solid var(--c-border);
+  border-radius: var(--r-lg);
+  padding: 1.25rem;
+  box-shadow: var(--sh-card);
+  transition: border-color 0.3s var(--ease-expo), box-shadow 0.3s var(--ease-expo), transform 0.3s var(--ease-expo);
+  overflow: hidden;
+}
+
+.ill-img-card:hover {
+  border-color: var(--c-brand);
+  box-shadow: var(--sh-lift), 0 0 0 1px color-mix(in srgb, var(--c-brand) 20%, transparent);
+  transform: translateY(-3px);
+}
+
+/* Images never crop — contain within fixed height */
+.ill-img-card img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--r-md);
+  display: block;
+  transition: transform 0.4s var(--ease-expo);
+}
+
+.ill-img-card:hover img {
+  transform: scale(1.02);
+}
+
+.ill-img-card figcaption {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--c-text-3);
+  text-align: center;
+}
+
+/* ── BunnyX logo pair ── */
+.ill-logo-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.ill-logo-pair .ill-img-card img {
+  max-height: 280px;
+}
+
+/* ── Elysia pair ── */
+.ill-elysia-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.ill-img-card--tall img  { max-height: 380px; }
+.ill-img-card--logo img  { max-height: 200px; padding: 1.5rem; }
+
+/* ── BertUI single logo ── */
+.ill-img-card--bertui {
+  max-width: 260px;
+}
+
+.ill-img-card--bertui img {
+  max-height: 180px;
+}
+
+/* ── Gallery grid ── */
+.ill-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.ill-gallery .ill-img-card img {
+  max-height: 240px;
+}
+
+/* ── CTA section ── */
+.ill-cta-section {
+  border-top: 1px solid var(--c-border);
+  padding-top: 3rem;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 580px) {
+  .ill-logo-pair,
+  .ill-elysia-pair {
+    grid-template-columns: 1fr;
+  }
+
+  .ill-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .ill-hero {
+    padding: calc(var(--nav-h) + 2rem) 1.25rem 2rem;
+  }
+
+  .ill-img-card--tall img  { max-height: 260px; }
+}
