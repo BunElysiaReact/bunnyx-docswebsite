@@ -13,6 +13,7 @@
     "@elysiajs/openapi": "^1.4.14",
     "@giscus/react": "^3.1.0",
     "@peaseernest/bertui-components": "^1.0.2",
+    "@sinclair/typebox": "^0.34.48",
     "bertui": "^1.2.8",
     "bertui-animate": "^1.0.0",
     "bertui-code": "^1.0.3",
