@@ -1,0 +1,10 @@
+{
+  "name": "bunny-app",
+  "type": "module",
+  "scripts": {
+    "start": "bun start.js"
+  },
+  "dependencies": {
+    "elysia": "*"
+  }
+}

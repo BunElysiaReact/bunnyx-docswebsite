@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "@bunnyx/api": "/bunnyx-api/api-client.js",
+    "bertui-animate": "/assets/node_modules/bertui-animate/dist/bertui-animate.css",
+    "bertui-code": "/assets/node_modules/bertui-code/./dist/index.js",
+    "bertui-continue": "/assets/node_modules/bertui-continue/dist/index.js",
+    "bertui-icons": "/assets/node_modules/bertui-icons/./generated/index.js"
+  }
+}

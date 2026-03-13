@@ -1,0 +1,713 @@
+{
+  "inputs": {
+    "main.js": {
+      "bytes": 232,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react-dom/client",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/router.js",
+          "kind": "import-statement",
+          "original": "./router.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "router.js": {
+      "bytes": 4181,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/index.js",
+          "kind": "import-statement",
+          "original": "./pages/index.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/about.js",
+          "kind": "import-statement",
+          "original": "./pages/about.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/blog/index.js",
+          "kind": "import-statement",
+          "original": "./pages/blog/index.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/docs/index.js",
+          "kind": "import-statement",
+          "original": "./pages/docs/index.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/docs/buildstructure/index.js",
+          "kind": "import-statement",
+          "original": "./pages/docs/buildstructure/index.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/docs/folderstructure/index.js",
+          "kind": "import-statement",
+          "original": "./pages/docs/folderstructure/index.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/docs/howtowriteelysia.js",
+          "kind": "import-statement",
+          "original": "./pages/docs/howtowriteelysia.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/illust/index.js",
+          "kind": "import-statement",
+          "original": "./pages/illust/index.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/playground/index.js",
+          "kind": "import-statement",
+          "original": "./pages/playground/index.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/tests/apitest.js",
+          "kind": "import-statement",
+          "original": "./pages/tests/apitest.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/tests/eden.js",
+          "kind": "import-statement",
+          "original": "./pages/tests/eden.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/tests/paramstest.js",
+          "kind": "import-statement",
+          "original": "./pages/tests/paramstest.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/pages/blog/[slug].js",
+          "kind": "import-statement",
+          "original": "./pages/blog/[slug].js"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/docs/buildstructure/index.js": {
+      "bytes": 16271,
+      "imports": [
+        {
+          "path": "bertui-code",
+          "kind": "import-statement"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "../../../components/Nav.js",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/tests/apitest.js": {
+      "bytes": 3605,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "bertui-code",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/tests/eden.js": {
+      "bytes": 6728,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/node_modules/bertui-code/dist/index.js",
+          "kind": "import-statement",
+          "original": "bertui-code"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/bunnyx-api/api-client.ts",
+          "kind": "import-statement",
+          "original": "../../../bunnyx-api/api-client.js"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/components/Comments.js",
+          "kind": "import-statement",
+          "original": "../../components/Comments.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/blog/index.js": {
+      "bytes": 3972,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/components/Nav.js",
+          "kind": "import-statement",
+          "original": "../../components/Nav.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/tests/paramstest.js": {
+      "bytes": 2695,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "bertui-code",
+          "kind": "import-statement"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "../../../bunnyx-api/api-client.js",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/docs/folderstructure/index.js": {
+      "bytes": 14353,
+      "imports": [
+        {
+          "path": "bertui-code",
+          "kind": "import-statement"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "../../../components/Nav.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/illust/index.js": {
+      "bytes": 7375,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "bertui-code",
+          "kind": "import-statement"
+        },
+        {
+          "path": "bertui-icons",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/about.js": {
+      "bytes": 7562,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "bertui-icons",
+          "kind": "import-statement"
+        },
+        {
+          "path": "../components/Nav.js",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/blog/[slug].js": {
+      "bytes": 3212,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "../../components/Nav.js",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/docs/howtowriteelysia.js": {
+      "bytes": 15495,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "bertui-code",
+          "kind": "import-statement"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "../../components/Nav.js",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/docs/index.js": {
+      "bytes": 15407,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "bertui-code",
+          "kind": "import-statement"
+        },
+        {
+          "path": "../../../bunnyx-api/api-client.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "../../components/Nav.js",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/playground/index.js": {
+      "bytes": 28737,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "pages/index.js": {
+      "bytes": 13683,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/node_modules/bertui-icons/generated/index.js",
+          "kind": "import-statement",
+          "original": "bertui-icons"
+        },
+        {
+          "path": "bertui-code",
+          "kind": "import-statement"
+        },
+        {
+          "path": "../components/Nav.js",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "components/Nav.js": {
+      "bytes": 3156,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/.bertuibuild/components/ThemeContext.js",
+          "kind": "import-statement",
+          "original": "./ThemeContext.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "../bunnyx-api/api-client.ts": {
+      "bytes": 401,
+      "imports": [
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/node_modules/@elysiajs/eden/dist/index.mjs",
+          "kind": "import-statement",
+          "original": "@elysiajs/eden"
+        }
+      ],
+      "format": "esm"
+    },
+    "../node_modules/bertui-code/dist/index.js": {
+      "bytes": 8729,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "components/Comments.js": {
+      "bytes": 474,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/node_modules/@giscus/react/dist/index.js",
+          "kind": "import-statement",
+          "original": "@giscus/react"
+        }
+      ],
+      "format": "esm"
+    },
+    "components/ThemeContext.js": {
+      "bytes": 1022,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "../node_modules/bertui-icons/generated/index.js": {
+      "bytes": 1073785,
+      "imports": [
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "../node_modules/@elysiajs/eden/dist/index.mjs": {
+      "bytes": 236,
+      "imports": [
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/node_modules/@elysiajs/eden/dist/chunk-FXT7FC66.mjs",
+          "kind": "import-statement",
+          "original": "./chunk-FXT7FC66.mjs"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/node_modules/@elysiajs/eden/dist/chunk-AB4FCYGG.mjs",
+          "kind": "import-statement",
+          "original": "./chunk-AB4FCYGG.mjs"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/node_modules/@elysiajs/eden/dist/chunk-E2P2HQLJ.mjs",
+          "kind": "import-statement",
+          "original": "./chunk-E2P2HQLJ.mjs"
+        },
+        {
+          "path": "/home/PeaseErnest/Desktop/Websites/bunnyx-test/node_modules/@elysiajs/eden/dist/chunk-I5KHAGLL.mjs",
+          "kind": "import-statement",
+          "original": "./chunk-I5KHAGLL.mjs"
+        }
+      ],
+      "format": "esm"
+    },
+    "../node_modules/@elysiajs/eden/dist/chunk-FXT7FC66.mjs": {
+      "bytes": 3012,
+      "imports": [
+        {
+          "path": "./chunk-I5KHAGLL.mjs",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "../node_modules/@elysiajs/eden/dist/chunk-E2P2HQLJ.mjs": {
+      "bytes": 1421,
+      "imports": [
+        {
+          "path": "./chunk-I5KHAGLL.mjs",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "../node_modules/@elysiajs/eden/dist/chunk-I5KHAGLL.mjs": {
+      "bytes": 1361,
+      "imports": [],
+      "format": "esm"
+    },
+    "../node_modules/@elysiajs/eden/dist/chunk-AB4FCYGG.mjs": {
+      "bytes": 6347,
+      "imports": [
+        {
+          "path": "./chunk-I5KHAGLL.mjs",
+          "kind": "import-statement"
+        }
+      ],
+      "format": "esm"
+    },
+    "../node_modules/@giscus/react/dist/index.js": {
+      "bytes": 660,
+      "imports": [
+        {
+          "path": "react/jsx-runtime",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "react",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "./chunks/giscus-Ci9LqPcC-p3380mz2.js",
+          "kind": "dynamic-import",
+          "original": "./giscus-Ci9LqPcC.js",
+          "external": true
+        }
+      ],
+      "format": "esm"
+    },
+    "../node_modules/@giscus/react/dist/giscus-Ci9LqPcC.js": {
+      "bytes": 33627,
+      "imports": [],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "./js/main-5jhqv6jq.js": {
+      "bytes": 743658,
+      "inputs": {
+        "../node_modules/bertui-icons/generated/index.js": {
+          "bytesInOutput": 615458
+        },
+        "../node_modules/bertui-code/dist/index.js": {
+          "bytesInOutput": 3472
+        },
+        "components/ThemeContext.js": {
+          "bytesInOutput": 172
+        },
+        "components/Nav.js": {
+          "bytesInOutput": 2218
+        },
+        "pages/index.js": {
+          "bytesInOutput": 11258
+        },
+        "pages/about.js": {
+          "bytesInOutput": 6311
+        },
+        "pages/blog/index.js": {
+          "bytesInOutput": 2906
+        },
+        "../node_modules/@elysiajs/eden/dist/chunk-I5KHAGLL.mjs": {
+          "bytesInOutput": 1335
+        },
+        "../node_modules/@elysiajs/eden/dist/chunk-FXT7FC66.mjs": {
+          "bytesInOutput": 0
+        },
+        "../node_modules/@elysiajs/eden/dist/chunk-AB4FCYGG.mjs": {
+          "bytesInOutput": 6336
+        },
+        "../node_modules/@elysiajs/eden/dist/chunk-E2P2HQLJ.mjs": {
+          "bytesInOutput": 0
+        },
+        "../node_modules/@elysiajs/eden/dist/index.mjs": {
+          "bytesInOutput": 0
+        },
+        "../bunnyx-api/api-client.ts": {
+          "bytesInOutput": 111
+        },
+        "pages/docs/index.js": {
+          "bytesInOutput": 12508
+        },
+        "pages/docs/buildstructure/index.js": {
+          "bytesInOutput": 13561
+        },
+        "pages/docs/folderstructure/index.js": {
+          "bytesInOutput": 11531
+        },
+        "pages/docs/howtowriteelysia.js": {
+          "bytesInOutput": 12526
+        },
+        "pages/illust/index.js": {
+          "bytesInOutput": 6027
+        },
+        "pages/playground/index.js": {
+          "bytesInOutput": 22205
+        },
+        "pages/tests/apitest.js": {
+          "bytesInOutput": 3223
+        },
+        "../node_modules/@giscus/react/dist/index.js": {
+          "bytesInOutput": 532
+        },
+        "components/Comments.js": {
+          "bytesInOutput": 322
+        },
+        "pages/tests/eden.js": {
+          "bytesInOutput": 5224
+        },
+        "pages/tests/paramstest.js": {
+          "bytesInOutput": 2009
+        },
+        "pages/blog/[slug].js": {
+          "bytesInOutput": 2293
+        },
+        "router.js": {
+          "bytesInOutput": 1966
+        },
+        "main.js": {
+          "bytesInOutput": 156
+        }
+      },
+      "imports": [
+        {
+          "path": "./js/chunks/giscus-Ci9LqPcC-p3380mz2.js",
+          "kind": "dynamic-import"
+        },
+        {
+          "path": "./js/chunks/main-ew7tnm5b.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [],
+      "entryPoint": "main.js"
+    },
+    "./js/chunks/main-ew7tnm5b.js": {
+      "bytes": 268,
+      "inputs": {},
+      "imports": [],
+      "exports": []
+    },
+    "./js/chunks/giscus-Ci9LqPcC-p3380mz2.js": {
+      "bytes": 24662,
+      "inputs": {
+        "../node_modules/@giscus/react/dist/giscus-Ci9LqPcC.js": {
+          "bytesInOutput": 24626
+        }
+      },
+      "imports": [
+        {
+          "path": "./js/chunks/main-ew7tnm5b.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "GiscusWidget"
+      ],
+      "entryPoint": "../node_modules/@giscus/react/dist/giscus-Ci9LqPcC.js"
+    }
+  }
+}
